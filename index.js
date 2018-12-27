@@ -92,6 +92,14 @@ __decorate([
         callbackOrder: 'reverse'
     }),
     __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], BarcodeScanner.prototype, "scanContinuous", null);
+__decorate([
+    Cordova({
+        callbackOrder: 'reverse'
+    }),
+    __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], BarcodeScanner.prototype, "dismiss", null);
