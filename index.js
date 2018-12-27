@@ -63,6 +63,7 @@ var BarcodeScanner = (function (_super) {
      * @returns {Promise<any>} Returns a Promise that resolves with scanner data, or rejects with an error.
      */
     BarcodeScanner.prototype.scan = function (options) { return; };
+    BarcodeScanner.prototype.scanContinuous = function (options) { return; };
     /**
      * Encodes data into a barcode.
      * NOTE: not well supported on Android
