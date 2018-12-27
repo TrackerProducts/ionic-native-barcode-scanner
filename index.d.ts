@@ -86,6 +86,7 @@ export declare class BarcodeScanner extends IonicNativePlugin {
      * @returns {Promise<any>} Returns a Promise that resolves with scanner data, or rejects with an error.
      */
     scan(options?: BarcodeScannerOptions): Promise<BarcodeScanResult>;
+    scanContinuous(options?: BarcodeScannerOptions): Promise<BarcodeScanResult[]>;
     dismiss(): Promise<any>;
     /**
      * Encodes data into a barcode.
